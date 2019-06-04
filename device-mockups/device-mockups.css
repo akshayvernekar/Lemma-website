@@ -360,6 +360,38 @@
 	top: 43%; bottom: 43%; left: 89.9%; right: 3.2%;
 }
 
+/* Google Pixel */
+.device-mockup.google_pixel2,
+.device-mockup.google_pixel2.portrait {
+	padding-bottom: 201.76%;
+}
+
+
+.device-mockup.google_pixel2 > .device,
+.device-mockup.google_pixel2.black > .device,
+.device-mockup.google_pixel2.portrait.black > .device {
+	background-image: url("google_pixel/Google Pixel 2 Just Black.png");
+}
+
+
+.device-mockup.google_pixel2.white > .device,
+.device-mockup.google_pixel2.portrait.white > .device {
+	background-image: url("google_pixel/Google Pixel 2 Clearly White.png");
+}
+
+
+.device-mockup.google_pixel2 > .device > .screen,
+.device-mockup.google_pixel2.portrait > .device > .screen {
+    top: 12.58%; bottom: 12.58%; left: 6.97%; right: 6.97%;
+}
+
+.device-mockup.google_pixel2 > .device > .button,
+.device-mockup.google_pixel2.portrait > .device > .button {
+	display: block;
+    top: 89.9%; bottom: 3.2%; left: 43%; right: 43%;
+}
+
+
 /* iPad */
 .device-mockup.ipad,
 .device-mockup.ipad.portrait {
