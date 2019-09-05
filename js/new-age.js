@@ -30,8 +30,10 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $('.navbar-brand img').attr('src','img/lemma_logo_header3.png');
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $('.navbar-brand img').attr('src','img/Lemma_WhiteLogo4.png');
     }
   };
   // Collapse now if page is not at top
